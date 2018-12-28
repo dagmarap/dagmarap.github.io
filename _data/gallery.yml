@@ -1,0 +1,31 @@
+- image_thumb: tn_gabinet.jpg
+  image_large: gabinet.jpg
+  image_alt: Gabinet
+
+- image_thumb: tn_podium.jpg
+  image_large: podium.jpg
+  image_alt: zawodnicy na podium
+
+- image_thumb: tn_dzieci.jpg
+  image_large: dzieci.jpg
+  image_alt: Młodzi sportowcy
+
+- image_thumb: tn_bieg.jpg
+  image_large: bieg.jpg
+  image_alt: Bieg w Rumii
+
+- image_thumb: tn_igly.jpg
+  image_large: igly.jpg
+  image_alt: Akupunktura
+
+- image_thumb: tn_papier.jpg
+  image_large: papier.jpg
+  image_alt: Uprawnienia
+
+- image_thumb: tn_plastry.jpg
+  image_large: plastry.jpg
+  image_alt: Kinesioterapia
+
+- image_thumb: tn_rugby.jpg
+  image_large: rugby.jpg
+  image_alt: Masaż na meczu rugby

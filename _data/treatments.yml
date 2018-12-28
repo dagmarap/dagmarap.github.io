@@ -1,0 +1,29 @@
+- icon: icon-medkit
+  title: Rehabilitacja
+  description: Ortopedyczna i pourazowa<br>Sportowa<br>Neurologiczna<br>Kardiologiczna<br>Domowa
+  link: rehabilitacja
+
+- icon: icon-bolt
+  title: Fizykoterapia
+  description: Magnetoterapia<br>Laseroterapia<br>Elektroterapia
+  link: fizykoterapia
+
+- icon: icon-bed
+  title: Masaż
+  description: Leczniczy<br>Sportowy<br>Relaksacyjny
+  link: masaz
+
+- icon: icon-chain
+  title: Kinesiotaping
+  description: Plastrowanie dynamiczne.<br>Naklejanie specjalnego rodzaju plastrów na mięśnie, między innymi w celu ich rozluźnienia, zmniejszenia bólu czy poprawy stabilizacji.
+  link: kinesiotaping
+
+- icon: icon-ambulance
+  title: Opieka sportowa
+  description: Pakiet przeznaczony specjalnie dla osób zajmujących się sportem zawodowo jak i amatorsko, chcących zminimalizować ryzyko kontuzji i zmaksymalizować potencjał treningowy organizmu.
+  link: opieka-sportowa
+
+- icon: icon-trophy
+  title: Trening
+  description: Indywidualne treningi w warunkach domowych, na sali gimnastycznej lub na świeżym powietrzu, dostosowanych dokładnie do zamierzonego celu.
+  link: trening

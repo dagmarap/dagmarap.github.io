@@ -1,0 +1,39 @@
+{% include doctype-head.html %}
+<body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
+    {% include svg-defs.svg %}
+    <!--[if lt IE 10]>
+        <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
+    <![endif]-->
+
+    {% include header-article.html %}
+    <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ page.hero.hero_img }}') no-repeat; background-size: cover;">
+        <div class="hero-content">
+            <div class="container-fluid">
+                <div class="hero-content-inner">
+                    <h1>{{ page.hero.hero_title }}</h1>
+                    <p>{{ page.hero.hero_description }}</p>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br><br> <br> <br> <br>
+        
+    </div>
+    <div class="page__inner-wrap">
+       <section class="page_content" itemprop="text">
+        <div class="container-fluid">
+            {{ content }}
+        </div>
+      </section>
+    </div>
+           
+    {% include footer.html %}
+    
+    {% if site.analytics %}
+        {% include analytics.html %}
+    {% endif %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/all.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="{{ site.baseurl }}/js/form-submission-handler.js"></script>
+</body>
+</html>
