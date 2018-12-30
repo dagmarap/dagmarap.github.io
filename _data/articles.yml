@@ -1,23 +1,12 @@
-- name: Artykuł 1
-  image: omnie.jpg
-  link: artykul1
+- name: Zaburzenia odżywiania, a poczucie własnej wartości
+  image: zaburzenia.jpg
+  link: zaburzenia-odzywiania
 
-- name: Artykuł 2
-  image: omnie.jpg
-  link: artykul2
+- name: O efekcie jo-jo
+  image: jojo-effect.jpg
+  link: efekt-jo-jo
 
-- name: Artykuł 1
-  image: omnie.jpg
-  link: artykul1
+- name: Na czym polega praca psychodietetyka
+  image: omnie2.jpg
+  link: praca-psychodietetyka
 
-- name: Artykuł 2
-  image: omnie.jpg
-  link: artykul2
-
-- name: Artykuł 1
-  image: omnie.jpg
-  link: artykul1
-
-- name: Artykuł 2
-  image: omnie.jpg
-  link: artykul2

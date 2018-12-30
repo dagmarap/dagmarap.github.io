@@ -7,9 +7,9 @@ logo_url: img/logo2-horizontal.png
 
 # Hero
 hero: 
-    hero_img: rsz_hero.jpg
-    hero_title: Psychodietetyka Gdańsk
-    hero_description: Gabinet Psychoditetyczny i Psychoterapeutyczny, Gdańsk, Dagmara Piotrowska
+    hero_img: hero2.jpg
+    hero_title: Gabinet Psychoditetyczny
+    hero_description: Dagmara Piotrowska
 
 # Contact info
 contact:
