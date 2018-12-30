@@ -1,21 +1,22 @@
 # Site settings
-title: Fizjoterapia Gdańsk
-description: "Gabinet fizjoterapii, Gdańsk, trójmiasto. Paweł Jendrzejewski"
+title: Psychodietetyka i Psychoterapia Gdańsk - Dagmara Piotrowska
+description: "Gabinet Psychoditetyczny i Psychoterapeutyczny, Gdańsk, Dagmara Piotrowska. Terapia uzależnien, zaburzenia odżywiania, jedzenie kompulsywne."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: img/logo3.png
+logo_url: img/logo-cropped.png
 
 # Hero
 hero: 
-    hero_img: omnie.jpg
-    hero_title: Fizjoterapia Gdańsk
-    hero_description: Paweł Jendrzejewski
+    hero_img: rsz_hero.jpg
+    hero_title: Psychodietetyka Gdańsk
+    hero_description: Gabinet Psychoditetyczny i Psychoterapeutyczny, Gdańsk, Dagmara Piotrowska
 
 # Contact info
 contact:
-    phone: +48 792 512 907
-    email: pawel.jendrzejewski@gmail.com
-    address: ul. Miszewskiego 12/13 <br> Gdańsk, 80-239 <br> (budynek Zakładu Doskonalenia Zawodowego) <br><br> ul. Juliusza Słowackiego 4 <br> Gdańsk, 80-257 <br> (teren klubu Fitness Spójnia)
+    phone: +48 606 988 989
+    email: dagmara.j.piotrowska@outlook.com
+    address: Gdańsk Wrzeszcz ul. Słowackiego 4 (wjazd od ul. Małachowskiego)
+
 # Opening hours
 monday_friday: 8:00 – 22:00
 saturday: 8:00 – 17:00
@@ -24,14 +25,9 @@ sunday: 8:00 – 17:00
 testimonials:
     testimonials_img: hero.jpg
 
-# Map
-map:
-    zoom: 17
-    address: Miszewskiego 12/13, Gdańsk, Poland
-    address_details: img/logo2.png
 
 # Social settings
-facebook: https://www.facebook.com/gdanskfizjoterapia/
+facebook: https://www.facebook.com/psychodietetyk.dagmara.piotrowska/
 
 # Build settings
 markdown: kramdown
