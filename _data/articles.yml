@@ -1,12 +1,12 @@
-- name: Zaburzenia odżywiania, a poczucie własnej wartości
-  image: zaburzenia.jpg
+- name: Zaburzenia odżywiania a poczucie własnej wartości
+  image: tn_zaburzenia.jpg
   link: zaburzenia-odzywiania
 
 - name: O efekcie jo-jo
-  image: jojo-effect.jpg
+  image: tn_jojo-effect.jpg
   link: efekt-jo-jo
 
 - name: Na czym polega praca psychodietetyka
-  image: omnie2.jpg
+  image: tn_omnie2.jpg
   link: praca-psychodietetyka
 

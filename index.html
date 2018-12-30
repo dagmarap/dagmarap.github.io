@@ -104,7 +104,7 @@ layout: default
                 
             </div>
             <div class="col-sm-6">
-                <img src="img/omnie.jpg" alt="Dagmara Piotrowska">
+                <img src="img/tn_omnie.jpg" alt="Dagmara Piotrowska">
             </div>
         </div>
     </div>
@@ -148,11 +148,11 @@ layout: default
                    <div class="col-sm-6 col-md-4">
                         <div class="icon-box">
                             <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                            <a href="{{ site.baseurl }}/{{ treatment.link }}" >
+                            
                             <h4>{{ treatment.title }}</h4>
 
                             <p>{{ treatment.description }}</p>
-                        </a>
+                    
                         </div>
                     </div>
        
@@ -214,24 +214,7 @@ layout: default
 </div>
 <!-- End Testimonials -->
 
-<!-- Start Gallery -->
-<div id="gallery" class="gallery">
-        
-    <h2 class="section-title">Galeria</h2>
 
-    {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img class="lozad" data-src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-            </div>
-        </a>
-    {% endfor %}
-
-</div>
-<!-- End Gallery -->
 
 <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>

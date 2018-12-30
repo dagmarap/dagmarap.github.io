@@ -14,8 +14,7 @@ tylko pod jednym warunkiem – jeśli poświęcimy na to rzeczywiście odpowiedn
 jest najważniejszy w naszym postanowieniu. Czas jaki poświęcimy na terapię, na ćwiczenia i na
 zmianę nawyków żywieniowych. Ten niezbędny czas często jest porównywalny z okresem, w jakim
 nastąpiło tycie. Można go skrócić o połowę lub trochę więcej, ale nie możemy oczekiwać, że w
-przypadku, kiedy tyliśmy przez 20 lat, to w pół roku trwale zrzucimy te zbędne kilogramy. Oczywiście
-- przez rok możemy zrzucić nawet 50kg masy ciała, ale przy tego rodzaju „diecie” organizm zawsze
+przypadku, kiedy tyliśmy przez 20 lat, to w pół roku trwale zrzucimy te zbędne kilogramy. Oczywiście przez rok możemy zrzucić nawet 50kg masy ciała, ale przy tego rodzaju „diecie” organizm zawsze
 powróci do wyższej wagi lub nawet ją przekroczy. Dlatego apeluję do Was, nie dajcie się zwieść
 „dietom cud”, „suplementom” czy „cudownym zabiegom” – Wasz organizm jest zbyt mądry na to,
 żeby go tak oszukać. Żeby troszkę rozjaśnić temat, posłużę się przykładem, który zawsze
@@ -30,7 +29,7 @@ Pani stosuje dietę 1000kcal dziennie, deficyt kaloryczny to 700kcal dziennie (1
 tłuszczu
 10 dni – nasza Pani X chudnie 1kg – super, radość i euforia
 50 dni – nasza Pani X chudnie 5kg –
-500dni – nasza Pani X chudnie 50kg? Zostaje jej nam 30 kg i raczej nie ma jej już wśród żywych ��
+500dni – nasza Pani X chudnie 50kg? Zostaje jej nam 30 kg i raczej nie ma jej już wśród żywych
 Ten prosty przykład pozwala zobrazować różnicę pomiędzy naukowym, matematycznym wynikiem
 osiąganym w warunkach laboratoryjnych, dla których to obliczeń deficyt 700kcal pozwala na utratę 1
 kg masy ciała, a rzeczywistymi możliwościami ludzkiego organizmu. Człowiek na przestrzeni ewolucji
