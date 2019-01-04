@@ -2,7 +2,7 @@
 layout: article
 
 hero: 
-    hero_img: jojo-effect.jpg
+    hero_img: jojo2.jpg
     hero_title: Efekt jo-jo
     hero_description: 
 ---

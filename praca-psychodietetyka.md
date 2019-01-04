@@ -2,7 +2,7 @@
 layout: article
 
 hero: 
-    hero_img: omnie2.jpg
+    hero_img: praca.jpg
     hero_title: Praca Psychodietetyka
     hero_description: 
 ---
