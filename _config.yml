@@ -18,9 +18,9 @@ contact:
     address: Gdańsk Wrzeszcz ul. Słowackiego 4 (wjazd od ul. Małachowskiego)
 
 # Opening hours
-monday_friday: 8:00 – 22:00
-saturday: 8:00 – 17:00
-sunday: 8:00 – 17:00
+monday_friday: 9:00 – 20:00
+saturday: 9:00 – 15:00
+sunday: nieczynne
 # Testimonials
 testimonials:
     testimonials_img: hero.jpg
