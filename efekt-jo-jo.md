@@ -1,6 +1,13 @@
 ---
 layout: article
 
+meta:
+    title: O efekcie jo-jo
+    name: Psychodietetyk Dagmara Piotrowska
+    description: Czy trwałe schudnięcie jest w ogóle możliwe? Czy można uniknąć efektu jo-jo?
+    image: img/jojo2.jpg
+    type: blog
+
 hero: 
     hero_img: jojo2.jpg
     hero_title: Efekt jo-jo

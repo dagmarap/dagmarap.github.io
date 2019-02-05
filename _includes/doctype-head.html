@@ -13,6 +13,14 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
+
+
+    <meta property="og:site_name" content="{{ page.name }}"/>
+    <meta property="og:title" content="{{ page.title }}"/> <!-- 90 characters -->
+    <meta property="og:description" content="{{ page.description }}"/> <!-- 300 characters -->
+    <meta property="og:image" content=" {{ page.meta.image }}">
+    <meta property="og:type" content=" {{ page.meta.type }}"/>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
