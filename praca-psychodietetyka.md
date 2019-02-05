@@ -2,11 +2,11 @@
 layout: article
 
 meta:
-    title: Na czym polega praca psychodietetyka
-    name: Psychodietetyk Dagmara Piotrowska
-    description: System odżywiania to skomplikowany mechanizm, który kształtujemy przez całe nasze życie. Wpływa na niego wiele czynników fizjologicznych oraz społecznych. Bardzo duże znaczenia ma okres dorastania, w którym kształtuje się swoje poglądy i osobowość. 
-    image: img/praca.jpg
-    type: blog
+    title:Na czym polega praca psychodietetyka
+    name:Psychodietetyk Dagmara Piotrowska
+    description:System odżywiania to skomplikowany mechanizm, który kształtujemy przez całe nasze życie. Wpływa na niego wiele czynników fizjologicznych oraz społecznych. Bardzo duże znaczenia ma okres dorastania, w którym kształtuje się swoje poglądy i osobowość. 
+    image:img/praca.jpg
+    type:blog
 
 hero: 
     hero_img: praca.jpg
