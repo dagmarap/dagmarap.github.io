@@ -5,7 +5,7 @@ meta:
     title: Zaburzenia odżywiania a poczucie własnej wartości
     name: Psychodietetyk Dagmara Piotrowska
     description: Zaburzenia odżywiania mają wiele postaci, od otyłości aż po bulimię czy anoreksję. Często przyczyną tych zaburzeń mogą być nierozwiązane problemy emocjonalne oraz sytuacje stresogenne. Jedzenie ma wielką moc pocieszającą.
-    image: img/tn_zaburzenia.jpg
+    image: img/tn2_zaburzenia.jpg
     type: blog
 
 hero: 
