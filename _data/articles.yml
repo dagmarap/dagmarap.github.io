@@ -1,12 +1,13 @@
-- name: Zaburzenia odżywiania a poczucie własnej wartości
-  image: tn_zaburzenia.jpg
-  link: zaburzenia-odzywiania
-
-- name: O efekcie jo-jo
-  image: tn_jojo-effect.jpg
+- name: 'Efekt jo-jo: jak wyjść z cyklu diet i zadbać o swoją relację z jedzeniem?'
+  image: efekt-jo-jo.webp
   link: efekt-jo-jo
-
-- name: Na czym polega praca psychodietetyka
-  image: tn_omnie2.jpg
-  link: praca-psychodietetyka
-
+- name: Pierwsze spotkanie z psychoterapeutką — nie musisz wiedzieć, od czego zacząć
+  image: pierwsze-spotkanie.webp
+  link: pierwsze-spotkanie
+- name: 'Psychoterapia TSR: Twoja diagnoza nie opowiada całej historii o Tobie'
+  image: psychoterapia-tsr.webp
+  link: psychoterapia-tsr
+- name: Kiedy w życiu rodziny pojawia się anoreksja — jak wspierać bliską osobę i
+    siebie?
+  image: rodzina-anoreksja.webp
+  link: rodzina-anoreksja

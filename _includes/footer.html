@@ -1,17 +1,11 @@
-<!-- Start Footer -->
 <footer class="main-footer">
     <div class="container-fluid">
-        
+        <p class="practice-footer">{{ site.name }} · Gdańsk i online</p>
+        <p class="footer-booking"><a class="booking-button" href="{{ site.booksy_url }}">Umów wizytę w Booksy</a></p>
         <ul class="social">
-            {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
-
-
-            <li><a href="mailto:dagmara.j.piotrowska@outlook.com"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></a></li>
-            <li><a href="tel:+48606988989"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></a></li>
+            {% if site.facebook %}<li><a href="{{ site.facebook }}" aria-label="Facebook"><svg class="icon icon-facebook" aria-hidden="true"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
+            <li><a href="mailto:{{ site.contact.email }}" aria-label="Napisz e-mail"><svg class="icon icon-envelope" aria-hidden="true"><use xlink:href="#icon-envelope"></use></svg></a></li>
+            <li><a href="tel:{{ site.contact.phone | remove: ' ' }}" aria-label="Zadzwoń"><svg class="icon icon-phone" aria-hidden="true"><use xlink:href="#icon-phone"></use></svg></a></li>
         </ul>
-
-        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
-
     </div>
 </footer>
-<!-- End Footer -->

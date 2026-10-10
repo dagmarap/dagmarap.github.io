@@ -1,1 +1,27 @@
-
+- name: Psychoterapia indywidualna
+  icon: chain
+  description: Wsparcie w odzyskiwaniu zdrowia psychicznego, poprawie samopoczucia
+    i codziennego funkcjonowania. Zapraszam osoby doświadczające lęku, obniżonego
+    nastroju, napięcia, kryzysów życiowych oraz trudności w relacjach i poczuciu własnej
+    wartości. Pracuję również z osobami z rozpoznanymi zaburzeniami osobowości, zaburzeniami
+    odżywiania i innymi diagnozami dotyczącymi zdrowia psychicznego. W podejściu skoncentrowanym
+    na rozwiązaniach — TSR — wspólnie określamy, co chcesz zmienić, i szukamy kroków,
+    które mogą wspierać proces zdrowienia. Uwzględniamy Twoje potrzeby, doświadczenia
+    i zasoby, dopasowując cele oraz tempo pracy do Twojej sytuacji.
+- name: Psychoterapia par i rodzin
+  icon: user
+  description: Przestrzeń do rozmowy, kiedy konflikty, oddalenie lub trudności w porozumiewaniu
+    się obciążają wspólne życie. Zapraszam pary i rodziny przeżywające kryzysy, ważne
+    zmiany oraz sytuacje, w których potrzeby poszczególnych osób trudno pogodzić.
+    Specjalizuję się również w pomocy rodzinom, w których życiu pojawiła się anoreksja.
+    Wspieram osobę doświadczającą choroby i jej bliskich oraz wspólnie szukamy sposobów
+    tworzenia więzi jako podstawy do zdrowienia rodziny.
+- name: Konsultacje psychodietetyczne
+  icon: leaf
+  description: Dodatkowy obszar mojej pracy, skierowany do osób, które chcą poprawić
+    swoją relację z jedzeniem i ciałem. Zapraszam, gdy jedzeniu towarzyszą napięcie,
+    poczucie winy, nadmierna kontrola lub trudność w rozpoznawaniu własnych potrzeb.
+    Wspólnie przyglądamy się związkom między emocjami, codziennymi doświadczeniami
+    i sposobem odżywiania. Szukamy zmian możliwych do wprowadzenia w Twoim życiu,
+    z uwzględnieniem Twoich potrzeb i zasobów. Celem jest budowanie spokojniejszej
+    relacji z jedzeniem oraz większej troski o siebie.

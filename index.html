@@ -1,32 +1,21 @@
 ---
 layout: default
-meta:
-    title: Strona główna
-    name: Psychoterapeuta Dagmara Piotrowska
-    description: Gabinet Psychoterapeutyczny i Psychodietetyczny, Gdańsk, Dagmara Piotrowska. Terapia uzależnien, zaburzenia odżywiania, jedzenie kompulsywne.
-    image: img/tn_omnie.jpg
-    type: blog
+sitemap: true
 ---
 
+
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<section class="hero home-hero" aria-labelledby="hero-title">
+    <img class="hero-portrait" src="{{ site.baseurl }}/img/{{ site.hero.hero_img }}" alt="Dagmara Piotrowska w gabinecie" width="1536" height="1024" fetchpriority="high">
     <div class="hero-content">
-        <div class="container-fluid">
-            <div class="hero-content-inner">
-                <h1>Gabinet Psychoterapeutyczny i Psychodietetyczny</h1>
-                <p>{{ site.hero.hero_description }}</p>
-            </div>
+        <div class="hero-content-inner">
+            <p class="practice-name">{{ site.name }}</p>
+            <h1 id="hero-title">{{ site.hero.hero_title }}</h1>
+            <p class="hero-location">Gdańsk i online</p>
+            <a class="booking-button" href="{{ site.booksy_url }}">Umów wizytę w Booksy</a>
         </div>
     </div>
-
-    <div class="container-fluid">
-        
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8" style="min-height: 400px;">
-           
-        </div>
-
-    </div>
-</div>
+</section>
 <!-- End Hero -->
 
 <!-- Start 3 columns -->
@@ -35,8 +24,9 @@ meta:
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         <h3>Kontakt</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Telefon:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Telefon:</strong> <a href="tel:{{ site.contact.phone | remove: ' ' }}">{{ site.contact.phone }}</a></li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %}
+            <li><a class="contact-booking" href="{{ site.booksy_url }}">Zapisz się przez Booksy →</a></li>
         </ul>
     </div>
     <div class="col-sm-4">
@@ -44,18 +34,9 @@ meta:
         <h3>Godziny otwarcia</h3>
         <table>
             <tbody>
-                <tr>
-                    <td>Poniedziałek – Piątek</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Sobota</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Niedziela</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
+                {% for opening in site.opening_hours %}
+                <tr><th scope="row">{{ opening.day }}</th><td>{{ opening.hours }}</td></tr>
+                {% endfor %}
             </tbody>
         </table>
     </div>
@@ -63,7 +44,7 @@ meta:
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3>Lokalizacja</h3>
             <p>
-                {{ site.contact.address }}
+                {{ site.contact.address }}<br>Spotkania w gabinecie i online
             </p>
     </div>
 </div>
@@ -77,50 +58,12 @@ meta:
         <div class="row">
             <div class="col-sm-6">
                 <h3>Dagmara Piotrowska</h3>
-                <p>Dyplomowany psychoterapeuta i psychodietetyk </p>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>
-                            Psychoterapeutka TSR (w procesie certyfikacji) i dyplomowana psychodietetyczka
-Jestem psychoterapeutką pracującą w nurcie Terapii Skoncentrowanej na Rozwiązaniach (w procesie certyfikacji, spełniając
-wymogi określone w ustawie o ochronie zdrowia psychicznego -Dz.U. z 2022 r. poz. 2123) oraz dyplomowaną
-psychodietetyczką - absolwentką studiów podyplomowych na Uniwersytecie SWPS. Ukończyłam szkolenie
-psychoterapeutyczne w Podejściu Skoncentrowanym na Rozwiązaniach oraz posiadam certyfikat Konsultanta TSR (nr
-K/043). Dzięki połączeniu kompetencji psychoterapeutycznych i psychodietetycznych mogę całościowo wspierać osoby,
-które chcą wprowadzić trwałe zmiany w swoim życiu — zarówno emocjonalne, jak i związane z relacją z jedzeniem. Poza
-nauką TSR na poziomie zaawansowanym ukończyłam dodatkowe szkolenia terapeutyczne w nurcie TSR, są to m.in.:
-„Studium pracy z nastolatkiem”, „Praca z dziećmi metodą Kids skills”; „Uzależnienia chemiczne i behawioralne”, ”Praca z
-metaforą”, „Praca z klientem z objawami depresyjnymi”, „Praca terapeutyczna z parą”, „TSR w obszarze seksualności”,
-„Cierpienie psychiczne, depresja i zapobieganie samobójstwom”, „Zaburzenia obsesyjno- kompulsywne”
-Jako psychodietetyk pomagam również regulować relację z jedzeniem, zmieniać nawyki i odzyskać poczucie kontroli nad
-własnym dobrostanem. Pracuję w atmosferze akceptacji, zrozumienia i szacunku. Wierzę, że każda osoba posiada zasoby,
-które mogą stać się fundamentem pozytywnych zmian — moim zadaniem jest pomóc je wydobyć i wykorzystać. Nawet
-niewielki krok może stać się początkiem dużej zmiany, a ja towarzyszę w odnajdywaniu rozwiązań, które prowadzą do
-spokojniejszego i szczęśliwszego życia.
-W pracy terapeutycznej koncentruję się na tym, aby jak najszybciej pomóc Klientom odkryć, czego naprawdę potrzebują,
-by żyć spokojniej, pełniej i bardziej satysfakcjonująco. TSR to podejście krótkoterminowe i praktyczne — zamiast skupiać
-się na problemach i przeszłości, koncentrujemy się na rozwiązaniach, dzięki czemu wiele osób zauważa wyraźną poprawę
-już po kilku sesjach.
-Wspieram osoby, które doświadczają m.in.:
-• trudności emocjonalnych, stresu, napięcia i przeciążenia,
-• kryzysów życiowych, obniżonego nastroju, lęku,
-• trudności w relacjach oraz poczucia zagubienia,
-• spadku motywacji, niskiej samooceny,
-• problemów związanych z zaburzeniami odżywiania.
-                        </p>
-                    </div>
-                </div>
-
-                
+                {% for paragraph in site.data.about %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
             </div>
             <div class="col-sm-6">
-                <img src="img/about_img.jpg" alt="Dagmara Piotrowska">
+                <img src="img/about_img.jpg" alt="Dagmara Piotrowska" loading="lazy" width="492" height="633">
             </div>
         </div>
     </div>
@@ -131,18 +74,20 @@ Wspieram osoby, które doświadczają m.in.:
      <div class="col-sm-4">
         <h3>Psychoterapia indywidualna</h3>
         <ul>
-            <li><strong>Pierwsza sesja:</strong>250 zł - czas trwania 90 minut</li>
+            <li><strong>Pierwsza sesja: </strong>250 zł - czas trwania 90 minut</li>
             <li><strong>Kolejne sesje: </strong>200 zł - czas trwania 50 minut</li>
         </ul>
         
     </div>
     <div class="col-sm-4">
-        <h3>Psychoterapia para/rodzina</h3>
-        <li><strong>Pierwsza sesja: </strong>280 zł - czas trwania 90 minut</li>
-        <li><strong>Kolejne sesje: </strong>250 zł - czas trwania 50 minut</li>
+        <h3>Psychoterapia par i rodzin</h3>
+        <ul>
+        <li><strong>Pierwsza sesja: </strong>250 zł - czas trwania 90 minut</li>
+        <li><strong>Kolejne sesje: </strong>250 zł - czas trwania 90 minut</li>
+        </ul>
     </div>
     <div class="col-sm-4">
-        Możliwa płatność gotówką, kartą lub na poniższe konto:</br>
+        Możliwa płatność gotówką, kartą lub na poniższe konto:<br>
             Usługi prozdrowotne Dagmara Piotrowska<br>
             nr 70 1050 1764 1000 0092 2305 4645<br>
     </div>
@@ -150,85 +95,55 @@ Wspieram osoby, które doświadczają m.in.:
 </div>
 </div>
 <!-- Start Treatments -->
-<div id="treatments" class="treatments">
+<section id="treatments" class="treatments">
     <div class="container-fluid">
         <h2 class="section-title">Oferta</h2>
-
-        <div class="row">
-            
-            
-                   <div class="col-sm-6 col-md-4">
-                        <div class="icon-box">
-                            <svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg>
-                            
-                            <h4>Psychoterapia TSR – szybka ulga, realna zmiana</h4>
-
-                            <p>Skoncentrowana na rozwiązaniach. Ukierunkowana na efekt.
-Jeśli czujesz przeciążenie, lęk, chaos lub po prostu chcesz odzyskać kontrolę nad swoim życiem — jesteś we właściwym
-miejscu.
-                            Pomogę Ci:
-• poczuć spokój już po pierwszych spotkaniach,
-• lepiej radzić sobie z emocjami i stresem,
-• wzmocnić samoocenę i motywację,
-• wrócić do równowagi i odzyskać sprawczość,
-• zbudować życie, w którym to Ty decydujesz.
-
-Terapia TSR to podejście, które naprawdę odciąża — bez analizowania każdego szczegółu z przeszłości. Skupiamy się na
-tym, co działa i jak możesz to wykorzystać już teraz.</p>
-                    
-                        </div>
-                    </div>
-                    
+        <div class="row treatment-grid">
+            {% for treatment in site.data.treatments %}
             <div class="col-sm-6 col-md-4">
-                        <div class="icon-box">
-                            <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
-                            
-                            <h4>Terapia zaburzeń odżywiania i psychodietetyka – odzyskaj wolność</h4>
-
-                            <p>Specjalistyczna pomoc przy anoreksji, bulimii i kompulsywnym jedzeniu.
-Łączę terapię krótkoterminową TSR z psychodietetyką, dzięki czemu pracujemy zarówno nad emocjami, jak i nad
-konkretnymi zachowaniami żywieniowymi.
-
-Pomagam osobom, które:
-• czują się uwięzione w cyklu objadania i restrykcji,
-• zmagają się z napadami jedzenia, bulimią lub anoreksją,
-
-• mają niską samoocenę i silną kontrolę jedzenia,
-• chcą odzyskać zdrową relację z ciałem i jedzeniem.
-
-Jeśli czujesz, że jedzenie zaczęło rządzić Twoim życiem — możesz to zmienić. Ze wsparciem, bez presji, w tempie, które
-chroni Twoje zasoby.</p>
-                    
-                        </div>
+                <div class="icon-box">
+                    <svg class="icon icon-{{ treatment.icon }}" aria-hidden="true"><use xlink:href="#icon-{{ treatment.icon }}"></use></svg>
+                    <h3>{{ treatment.name }}</h3>
+                    <p>{{ treatment.description }}</p>
+                    <a href="{{ site.booksy_url }}">Umów spotkanie w Booksy →</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Treatments -->
+<!-- Start Testimonials -->
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <h2 class="section-title">Opinie</h2>
+            <p class="reviews-intro">Wybrane opinie z Google</p>
+            <p class="reviews-link"><a class="booking-button" href="{{ site.google_reviews_url }}">Zobacz aktualne opinie w Google</a></p>
+            <div id="testimonial-carousel">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-quote-left" aria-hidden="true"><use xlink:href="#icon-quote-left"></use></svg>
+                        <div class="review-rating" role="img" aria-label="Ocena {{ testimonial.rating }} na 5 gwiazdek"><span aria-hidden="true">{% for star in (1..testimonial.rating) %}★{% endfor %}</span></div>
+                        <blockquote cite="{{ testimonial.source_url }}">
+                            <p>{{ testimonial.description | escape }}</p>
+                            <footer>
+                                {{ testimonial.name | escape }}
+                                <small class="review-source">
+                                    {% if testimonial.excerpt %}Fragment opinii z Google{% else %}Opinia z Google{% endif %}
+                                    · <a href="{{ testimonial.source_url }}" aria-label="Przeczytaj opinię {{ testimonial.name | escape }} w Google">{% if testimonial.excerpt %}Zobacz całość{% else %}Zobacz w Google{% endif %}</a>
+                                </small>
+                            </footer>
+                        </blockquote>
                     </div>
-                
-            <div class="col-sm-6 col-md-4">
-                        <div class="icon-box">
-                            <svg class="icon icon-leaf"><use xlink:href="#icon-leaf"></use></svg>
-                            
-                            <h4>Terapia dzieci z fobiami żywieniowymi (także ARFID) – spokojne jedzenie bez strachu</h4>
-
-                            <p>Skuteczne, łagodne wsparcie dla dzieci, które boją się jedzenia.
-Pracuję w podejściu TSR, które wzmacnia dziecko, zamiast je stresować. Każda zmiana jest małym, bezpiecznym krokiem.
-
-Pomagam, gdy dziecko:
-• je bardzo wybiórczo i unika nowych produktów,
-• boi się jedzenia lub reaguje silnym obrzydzeniem,
-• doświadcza trudności sensorycznych,
-• nie je poza domem lub odmawia posiłków w szkole,
-• ma diagnozę lub podejrzenie ARFID.
-
-Wspieram także rodziców — tak, aby zmiana była trwała i przyniosła ulgę całej rodzinie.</p>
-                    
-                        </div>
-                    </div>
-
-            
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
-<!-- End Treatments -->
-<!-- test -->
+<!-- End Testimonials -->
+
 <!-- Start Our team -->
 <div id="team" class="team"> 
     <h2 class="section-title">Artykuły</h2> 
@@ -238,9 +153,9 @@ Wspieram także rodziców — tak, aby zmiana była trwała i przyniosła ulgę 
         <div class="expandable-box">
             <div class="expandable-box-top">
 
-                <img src="{{ site.baseurl }}/img/{{ article.image }}" alt="{{ article.name }}">
+                <img src="{{ site.baseurl }}/img/{{ article.image }}" alt="{{ article.name | escape }}" loading="lazy" width="1536" height="1024">
                 
-                <h4>{{ article.name }}</h4>
+                <h3>{{ article.name }}</h3>
             </div>
                
 
@@ -255,30 +170,8 @@ Wspieram także rodziców — tak, aby zmiana była trwała i przyniosła ulgę 
 </div>
 <!-- End Our team -->
 
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+
+
+<div id="location" class="location-section"><h2 class="section-title">Lokalizacja</h2><p>{{ site.contact.address }} · Spotkania w gabinecie i online</p>
+<iframe title="Mapa dojazdu do gabinetu Dagmary Piotrowskiej" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.645713698973!2d18.5936674158777!3d54.38090888020883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6b5338f6009b4c4!2sPsychodietetyk+Gda%C5%84sk%2C+Dagmara+Piotrowska!5e0!3m2!1spl!2spl!4v1546204775069"  frameborder="0" style="border:0; height: 450px; width: 100%;" allowfullscreen></iframe>
 </div>
-<!-- End Testimonials -->
-
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.645713698973!2d18.5936674158777!3d54.38090888020883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6b5338f6009b4c4!2sPsychodietetyk+Gda%C5%84sk%2C+Dagmara+Piotrowska!5e0!3m2!1spl!2spl!4v1546204775069"  frameborder="0" style="border:0; height: 450px; width: 100%;" allowfullscreen></iframe>

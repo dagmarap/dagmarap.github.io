@@ -1,47 +1,41 @@
-# Site settings
-title: Psychodietetyka i Psychoterapia Gdańsk - Dagmara Piotrowska
-description: "Gabinet Psychodietetyczny i Psychoterapeutyczny, Gdańsk, Dagmara Piotrowska. Terapia uzależnien, zaburzenia odżywiania, jedzenie kompulsywne."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+title: Psychoterapia Gdańsk i online — Dagmara Piotrowska
+description: Psychoterapia indywidualna, par i rodzin w Gdańsku oraz online. Dagmara
+  Piotrowska — psychoterapeutka TSR w procesie certyfikacji i psychodietetyczka.
+baseurl: ''
+url: https://psychodietetyk-piotrowska.pl
 logo_url: img/logo2-horizontal.png
-
-# Hero
-hero: 
-    hero_img: hero2.jpg
-    hero_title: Gabinet Psychodietetyczny
-    hero_description: Dagmara Piotrowska
-
-# Contact info
+hero:
+  hero_img: dagmara-piotrowska.webp
+  hero_title: Psychoterapia indywidualna, par i rodzin w Gdańsku oraz online
 contact:
-    phone: +48 606 988 989
-    email: dagmara.j.piotrowska@outlook.com
-    address: Gdańsk Wrzeszcz ul. Fishera 6/1 
-
-# Opening hours
-monday_friday: 9:00 – 20:00
-saturday: nieczynne
-sunday: nieczynne
-# Testimonials
+  phone: +48 606 988 989
+  email: dagmara.j.piotrowska@outlook.com
+  address: Gdańsk Wrzeszcz, ul. Fiszera 6/1
 testimonials:
-    testimonials_img: hero.jpg
-
-
-# Social settings
+  testimonials_img: hero2.jpg
 facebook: https://www.facebook.com/psychodietetyk.dagmara.piotrowska/
-
-# Build settings
 markdown: kramdown
-
-exclude: [
-    package.json,
-    Gruntfile.js,
-    node_modules,
-    .sass-cache,
-    Gemfile,
-    Gemfile.lock,
-    .gitignore
-]
-
-# Theme Settings
-analytics: 
-google_verification:
+exclude:
+- package.json
+- Gruntfile.js
+- node_modules
+- .sass-cache
+- Gemfile
+- Gemfile.lock
+- .gitignore
+- package-lock.json
+- README.md
+analytics: null
+google_verification: null
+name: Psychoterapia Dagmara Piotrowska
+booksy_url: https://psychoterapia55.booksy.com/k
+google_reviews_url: https://share.google/8e2Afmvyip7NUF4fc
+opening_hours:
+- day: Poniedziałek
+  hours: 10:00 – 21:00
+- day: Wtorek
+  hours: 08:00 – 15:00
+- day: Środa
+  hours: 08:00 – 19:00
+- day: Czwartek
+  hours: 08:00 – 15:00

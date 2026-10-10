@@ -1,87 +1,53 @@
 ---
 layout: article
-
-meta:
-    title: O efekcie jo-jo
-    name: Psychodietetyk Dagmara Piotrowska
-    description: Czy trwałe schudnięcie jest w ogóle możliwe? Czy można uniknąć efektu jo-jo?
-    image: img/tn_jojo2.jpg
-    type: blog
-
-hero: 
-    hero_img: jojo2.jpg
-    hero_title: Efekt jo-jo
-    hero_description: 
+title: 'Efekt jo-jo: jak wyjść z cyklu diet i zadbać o swoją relację z jedzeniem?'
+description: 'Na początku pojawia się nadzieja. Nowy plan, zasady, poczucie, że tym
+  razem wszystko się uda. Przez pewien czas trzymasz się zaleceń, ale później przychodzą
+  zmęczenie, trudniejszy tydzień albo silny głód. Waga zaczyna wracać, a wraz z nią
+  myśl: „Znowu nie potrafię”.'
+image: /img/efekt-jo-jo.webp
+permalink: /efekt-jo-jo
+sitemap: true
 ---
-## Czy trwałe schudnięcie jest w ogóle możliwe? Czy można uniknąć efektu jo-jo?
 
-Po latach pracy w Klubie Skutecznej Utraty Wagi, gdzie pracowałam z kilkuset osobami, którym
-pomagałam w utracie masy ciała, chcę wyraźnie i jasno powiedzieć - **ten proces jest możliwy**, ale
-tylko pod jednym warunkiem – **jeśli poświęcimy na to rzeczywiście odpowiedni czas**. To właśnie on
-jest najważniejszy w naszym postanowieniu. Czas jaki poświęcimy na terapię, na ćwiczenia i na
-zmianę nawyków żywieniowych. Ten niezbędny czas często jest porównywalny z okresem, w jakim
-nastąpiło tycie. Można go skrócić o połowę lub trochę więcej, ale nie możemy oczekiwać, że w
-przypadku, kiedy tyliśmy przez 20 lat, to w pół roku trwale zrzucimy te zbędne kilogramy. Oczywiście przez rok możemy zrzucić nawet 50kg masy ciała, ale przy tego rodzaju „diecie” organizm zawsze
-powróci do wyższej wagi lub nawet ją przekroczy. **Dlatego apeluję do Was, nie dajcie się zwieść
-„dietom cud”, „suplementom” czy „cudownym zabiegom” – Wasz organizm jest zbyt mądry na to,
-żeby go tak oszukać**. 
+Na początku pojawia się nadzieja. Nowy plan, zasady, poczucie, że tym razem wszystko się uda. Przez pewien czas trzymasz się zaleceń, ale później przychodzą zmęczenie, trudniejszy tydzień albo silny głód. Waga zaczyna wracać, a wraz z nią myśl: „Znowu nie potrafię”.
 
-### Żeby troszkę rozjaśnić temat, posłużę się przykładem, który zawsze przedstawiam moim pacjentom:
+Jeśli znasz ten scenariusz, warto przyjrzeć mu się z większą życzliwością. Powrót masy ciała po odchudzaniu nie jest miarą Twojej wartości ani prostym dowodem braku silnej woli.
 
-Pani X – ważąca 80kg
+## Dlaczego masa ciała może wracać?
 
-Jej podstawowe dobowe zapotrzebowanie kaloryczne (zwane Podstawową Przemianą Materii, w
-skrócie PPM) to 1700kcal. PPM to współczynnik określający, ile nasze ciało potrzebuje energii w ciągu
-doby na swoje podstawowe funkcje fizjologiczne). Jeżeli do tego dodamy nasze dzienne aktywności,
-to otrzymamy współczynnik Całkowitej Przemiany Materii (CPM). W naszym przypadku będzie on wynosił 2100 kcal.
+Utrzymanie zmniejszonej masy ciała bywa trudne z wielu powodów. Po schudnięciu zmienia się zapotrzebowanie energetyczne organizmu, a biologiczne mechanizmy regulujące apetyt i wydatkowanie energii mogą sprzyjać ponownemu przybieraniu na wadze. Znaczenie mają również warunki życia, stan zdrowia i możliwość utrzymania zmian. Nie da się opisać tego procesu prostym przelicznikiem: określona liczba kalorii zawsze oznacza określony spadek wagi. [Więcej o biologicznych mechanizmach — NIDDK](https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/eating-physical-activity)
 
+Warto też zapytać, czy sposób odżywiania, który wybierasz, zostawia miejsce na Twoją codzienność. Czy można go pogodzić z pracą, życiem rodzinnym i wspólnymi posiłkami? Co dzieje się wtedy, gdy masz mniej czasu lub siły?
 
-Pani stosuje dietę 1400kcal dziennie, deficyt kaloryczny to 700kcal dziennie (2100kcal - 1400kcal)
-700kcal dziennie to równoważnik 100g tkanki tłuszczowej – tak więc Pani pozbywa się dziennie 100g
-tłuszczu
+Plan wymagający ciągłego pilnowania się może stać się kolejnym obciążeniem.
 
-10 dni – nasza Pani X chudnie 1kg – radość :)
+## Jakiej zmiany naprawdę potrzebujesz?
 
-50 dni – nasza Pani X chudnie 5kg – super, euforia coraz większa :D
+W konsultacjach psychodietetycznych korzystam z podejścia skoncentrowanego na rozwiązaniach — TSR. Zależy mi na poznaniu tego, co chcesz osiągnąć, i znalezieniu zmian dopasowanych do Twojego życia.
 
-500dni – nasza Pani X chudnie 50kg??
+Być może ważna jest dla Ciebie poprawa zdrowia. Być może chcesz jeść z mniejszym napięciem, przestać oceniać cały dzień przez pryzmat posiłków albo mieć więcej energii. Te cele warto nazwać własnymi słowami.
 
-Brzmi to niemożliwie (nasza Pani X osiągnęłaby waagę 30 kg i prawdopodobnie nie byłoby jej już wśród żywych) i takie faktycznie jest. 
+Pomocne może być pytanie: „Po czym zauważę, że moja relacja z jedzeniem staje się spokojniejsza?”
 
-Zatem co się dzieje? **Organizm już od pierwszych chwil obniżonej kaloryczności dostosowuje się do tego i zmniejsza podstawową przemianę materii (ppm).**
+Odpowiedzi mogą dotyczyć codziennych sytuacji: zjedzenia posiłku bez pośpiechu, spokojniejszego spotkania przy stole czy powrotu do zwykłego rytmu jedzenia po trudniejszym dniu.
 
-Dlatego nasza Pani X po pewnym czasie stosowania diety przestaje chudnąć, ale zwolniony
-metabolizm pozostaje. Organizm już wie, że nie dostarczamy mu już tak dużo kalorii jak
-poprzednio, więc spala tyle co ma i dostosowuje się do wartości jaką otrzymuje. Po pewnym
-czasie chudniemy więc coraz mniej, aż do momentu zrównania tych wartości – w naszym
-przypadku jest to 1400kcal. I co dalej? W którymś momencie dieta 1400kcal zaczyna nas
-męczyć i nudzić, staramy się jeść dalej dietetycznie, ale już nie tak restrykcyjnie – pozwalamy
-sobie na „przysłowiowy kęs” więcej i zamiast 1400 kalorii jemy 1500kcal, i jest to wciąż
-stosunkowo mało, ale więcej niż nasze obecne zapotrzebowanie kaloryczne. W tym samym
-momencie zaczynamy na powrót tyć i to bardzo, bardzo szybko. Za wszystko odpowiedzialne
-są naturalne uwarunkowania naszych ludzkich organizmów - skoro przez dłuższy okres
-dostarczaliśmy mu tylko 1400kcal i tyle wystarczało mu do funkcjonowania, to gdy nagle
-dostarczamy 1500 kalorii – organizm samoczynnie, w szybkim tempie zaczyna magazynować
-nadwyżkę. Znowu zaczynamy tyć, większe podjadanie, a machina efektu jo-jo przyspiesza
-bardzo szybko. Co więcej, zabija nas własna frustracja – pół roku restrykcyjnej diety, a my, po
-dołożeniu zaledwie jednego kęsa jedzenia więcej do starannie wyliczonych kalorii, znowu
-puchniemy jak balon!
+## Zauważ to, co już Ci pomaga
 
-Ten prosty przykład pozwala zobrazować różnicę pomiędzy naukowym, matematycznym wynikiem
-osiąganym w warunkach laboratoryjnych, dla których to obliczeń deficyt 700kcal pozwala na utratę 1
-kg masy ciała, a rzeczywistymi możliwościami ludzkiego organizmu. 
+Przypomnij sobie moment, kiedy jedzenie zajmowało mniej miejsca w Twoich myślach. Co wtedy było inaczej? Czy dzień był lepiej zorganizowany? Czy ktoś Cię wspierał? Czy udało się odpocząć?
 
-Człowiek na przestrzeni ewolucji
-wypracował sobie model przystosowawczy (inaczej gatunek nie miałby szans na przetrwanie) -
-przystosowujemy nasze zapotrzebowanie kaloryczne do podaży jedzenia jaką otrzymujemy. Innymi
-słowy - im więcej jemy, tym wyższe jest nasze zapotrzebowanie kaloryczne, a im mniej jemy, tym to
-zapotrzebowanie się zmniejsza. 
+Nie chodzi o znalezienie idealnego okresu. Nawet pojedyncze doświadczenie może podpowiedzieć, jakich warunków potrzebujesz.
 
-Wracając zatem do tezy wskazanej na wstępie: **proces trwałego schudnięcia jest możliwy**, kiedy z
-wytrwałością i wyrozumiałością dla siebie **damy sobie na to odpowiedni czas**. Dieta, gdy naszym
-celem jest redukcja tkanki tłuszczowej powinna być niższa od wskaźnika CPM o około 300kcal, ale
-nigdy **nie powinna być niższa niż wskaźnik PPM, żeby nie spowolnić naszego metabolizmu.** 
+Możesz rozważyć jeden niewielki krok: zaplanowanie czasu na posiłek, przygotowanie jedzenia na zabiegany dzień albo poproszenie bliskich, żeby nie komentowali Twojego ciała. Wybierz to, co jest dla Ciebie pomocne i możliwe. Małe zmiany oraz dostosowywanie planu po trudnościach są elementami budowania nowych nawyków. [NIDDK — zmiana nawyków](https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health)
 
-**Tylko doświadczony dietetyk pomoże Wam w precyzyjnym określeniu Waszego wskaźnika PPM i CPM.**
-Warto też pamiętać o zasadzie, że w celu osiągnięcia długotrwałego efektu zmniejszenia masy ciała
-optymalny jest 10 % spadek w stosunku do masy wyjściowej w okresie jednego roku.
+## Trudniejszy dzień też niesie informację
+
+Kiedy wracasz do zachowania, które chciałabyś lub chciałbyś zmienić, możesz zapytać: „Co mnie wtedy obciążyło? Czego zabrakło? Jakiego wsparcia potrzebuję następnym razem?”.
+
+Takie pytania pomagają przyjrzeć się sytuacji bez karania siebie kolejnymi restrykcjami.
+
+Jeżeli jedzeniu towarzyszą napady utraty kontroli, silne ograniczanie posiłków, prowokowanie wymiotów lub lęk, który utrudnia codzienne funkcjonowanie, warto skorzystać ze specjalistycznej oceny. W takiej sytuacji plan odchudzania może nie odpowiadać Twoim potrzebom.
+
+W mojej pracy wspieram osoby, które chcą poprawić relację z jedzeniem i ciałem. Wspólnie ustalamy, jaki rodzaj pomocy będzie odpowiedni i od czego można zacząć.
+
+Zapraszam na konsultację psychodietetyczną w Gdańsku lub online. [Umów spotkanie w Booksy]({{ site.booksy_url }}).
